@@ -6,7 +6,6 @@
 
 <title>Task 2 - Creating Views</title>
 
-
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
 
 <style>
@@ -18,29 +17,46 @@ body{
 .page-title{
     text-align:center;
     margin-top:40px;
-    margin-bottom:40px;
+    margin-bottom:10px;
     font-weight:700;
 }
 
+.sub-title{
+    text-align:center;
+    margin-bottom:40px;
+}
+
 .section-title{
-    margin-bottom:15px;
+    margin-bottom:20px;
     font-weight:600;
 }
 
 .card{
     margin-bottom:40px;
     border-radius:12px;
-    box-shadow:0 4px 10px rgba(0,0,0,0.1);
+    box-shadow:0 4px 12px rgba(0,0,0,0.08);
 }
 
 .img-container{
     text-align:center;
+    margin-bottom:25px;
 }
 
 .img-container img{
     max-width:100%;
     border-radius:8px;
     border:1px solid #ddd;
+    transition:0.3s;
+}
+
+.img-container img:hover{
+    transform:scale(1.02);
+    box-shadow:0 6px 14px rgba(0,0,0,0.15);
+}
+
+.label-title{
+    font-weight:600;
+    margin-bottom:10px;
 }
 
 </style>
@@ -52,25 +68,22 @@ body{
 <div class="container">
 
 <h1 class="page-title">Task 2 - Creating Views</h1>
-<p class="page-title">Submitted by: Jonard D. Basillote BSIT-2B</p>
+<p class="sub-title">Submitted by: <b>Jonard D. Basillote</b> | BSIT-2B</p>
 
 <!-- EMP VIEW -->
 <div class="card p-4">
 <h4 class="section-title text-primary">Employee View</h4>
 
-<div class="row">
-
-<div class="col-md-6 img-container">
-<h6>Query</h6>
-<img src="emp_code.png" alt="Employee View Query">
+<div class="img-container">
+<p class="label-title">Query</p>
+<img src="views/emp_code.png" alt="Employee View Query">
 </div>
 
-<div class="col-md-6 img-container">
-<h6>Output</h6>
-<img src="emp_output.png" alt="Employee View Output">
+<div class="img-container">
+<p class="label-title">Output</p>
+<img src="views/emp_output.png" alt="Employee View Output">
 </div>
 
-</div>
 </div>
 
 
@@ -78,19 +91,16 @@ body{
 <div class="card p-4">
 <h4 class="section-title text-success">Department View</h4>
 
-<div class="row">
-
-<div class="col-md-6 img-container">
-<h6>Query</h6>
-<img src="dep_view_code.png" alt="Department View Query">
+<div class="img-container">
+<p class="label-title">Query</p>
+<img src="views/dep_view_code.png" alt="Department View Query">
 </div>
 
-<div class="col-md-6 img-container">
-<h6>Output</h6>
-<img src="dep_view_output.png" alt="Department View Output">
+<div class="img-container">
+<p class="label-title">Output</p>
+<img src="views/dep_view_output.png" alt="Department View Output">
 </div>
 
-</div>
 </div>
 
 
@@ -98,19 +108,16 @@ body{
 <div class="card p-4">
 <h4 class="section-title text-danger">Country View</h4>
 
-<div class="row">
-
-<div class="col-md-6 img-container">
-<h6>Query</h6>
-<img src="country_view_code.png" alt="Country View Query">
+<div class="img-container">
+<p class="label-title">Query</p>
+<img src="views/country_view_code.png" alt="Country View Query">
 </div>
 
-<div class="col-md-6 img-container">
-<h6>Output</h6>
-<img src="country_view_output.png" alt="Country View Output">
+<div class="img-container">
+<p class="label-title">Output</p>
+<img src="views/country_view_output.png" alt="Country View Output">
 </div>
 
-</div>
 </div>
 
 
@@ -118,19 +125,16 @@ body{
 <div class="card p-4">
 <h4 class="section-title text-warning">Department Location View</h4>
 
-<div class="row">
-
-<div class="col-md-6 img-container">
-<h6>Query</h6>
-<img src="dep-loc_code.png" alt="Department Location Query">
+<div class="img-container">
+<p class="label-title">Query</p>
+<img src="views/dep-loc_code.png" alt="Department Location Query">
 </div>
 
-<div class="col-md-6 img-container">
-<h6>Output</h6>
-<img src="dep-loc_output.png" alt="Department Location Output">
+<div class="img-container">
+<p class="label-title">Output</p>
+<img src="views/dep-loc_output.png" alt="Department Location Output">
 </div>
 
-</div>
 </div>
 
 
@@ -138,19 +142,16 @@ body{
 <div class="card p-4">
 <h4 class="section-title text-info">Employee Manager View</h4>
 
-<div class="row">
-
-<div class="col-md-6 img-container">
-<h6>Query</h6>
-<img src="emp_manager_code.png" alt="Employee Manager Query">
+<div class="img-container">
+<p class="label-title">Query</p>
+<img src="views/emp_manager_code.png" alt="Employee Manager Query">
 </div>
 
-<div class="col-md-6 img-container">
-<h6>Output</h6>
-<img src="emp_manager_output.png" alt="Employee Manager Output">
+<div class="img-container">
+<p class="label-title">Output</p>
+<img src="views/emp_manager_output.png" alt="Employee Manager Output">
 </div>
 
-</div>
 </div>
 
 </div>
